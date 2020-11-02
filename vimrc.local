@@ -1,3 +1,4 @@
+" BASIC CONFIGURATION
 set number
 set mouse=a
 set numberwidth=1
@@ -12,6 +13,7 @@ set laststatus=2
 set noshowmode
 set cursorline
 
+" PLUG VIM CONFIGURATION
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
   \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -28,3 +30,9 @@ Plug 'junegunn/seoul256.vim'
 "
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
+
+"JAVA CONFIGURATION
+
+"JS CONFIGURATION
+
+"PYTHON CONFIGURATION
